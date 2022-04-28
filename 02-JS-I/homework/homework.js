@@ -50,15 +50,15 @@ function resta(x, y) {
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  $resultado=  x * y;
-  return $resultado;
+  var resultado=  x * y;
+  return resultado;
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  $resultado=  x / y;
-  return $resultado;
+  var resultado =  x / y;
+  return resultado;
 }
 
 function sonIguales(x, y) {
@@ -108,8 +108,8 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  $resultado (x % y);
-  return $resultado;
+  var resultado =  x % y;
+  return resultado;
   
 }
 
@@ -140,44 +140,44 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  $resultado = Math.pow(num,2)
-  return $resultado;
+  var resultado = Math.pow(num,2)
+  return resultado;
   
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  $resultado = Math.pow(num,3)
-  return $resultado;
+  var resultado = Math.pow(num,3)
+  return resultado;
 }
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  $resultado  = Math.pow(num, exponent);
-  return $resultado;
+  var resultado  = Math.pow(num, exponent);
+  return resultado;
 }
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  $resultado  = Math. round(num)
-  return $resultado;
+  var resultado  = Math. round(num)
+  return resultado;
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  $resultado  = (Math.ceil(num));
-  return $resultado;
+  var resultado  = (Math.ceil(num));
+  return resultado;
 }
 
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  $resultado = Math.random();
-  return $resultado;
+  var resultado = Math.random();
+  return resultado;
 }
 
 function esPositivo(numero) {
@@ -206,18 +206,17 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  $nombre = nombre;
-  $apellido = apellido;
-  return $nombre +" "+ $apellido;
+  
+  return nombre +" "+ apellido;
 }
 
 function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  $nombre = nombre;
-  $texto = "Hola";
-  return $texto +" "+ $nombre +"!";
+  
+  var texto = "Hola";
+  return texto +" "+ nombre +"!";
   
 }
 
@@ -225,8 +224,8 @@ function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
   
-  $base = ancho * alto;
-  return "El area del rectangulo es: "  + $base ;
+  var base = ancho * alto;
+  return "El area del rectangulo es: "  + base ;
 }
 
 
