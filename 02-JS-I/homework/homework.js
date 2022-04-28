@@ -162,7 +162,8 @@ function elevar(num, exponent) {
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  
+  $resultado  = Math. round(num)
+  return $resultado;
 }
 
 function redondearHaciaArriba(num) {
@@ -197,20 +198,26 @@ function esPositivo(numero) {
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
-  // Tu código:
+  // Tu código
+  return str + "!" ;
 }
 
 function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  
+  $nombre = nombre;
+  $apellido = apellido;
+  return $nombre +" "+ $apellido;
 }
 
 function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
+  $nombre = nombre;
+  $texto = "Hola";
+  return $texto +" "+ $nombre +"!";
   
 }
 
@@ -218,6 +225,8 @@ function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
   
+  $base = ancho * alto;
+  return "El area del rectangulo es: "  + $base ;
 }
 
 
