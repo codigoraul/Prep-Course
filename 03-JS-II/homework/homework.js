@@ -179,13 +179,24 @@ function esVerdadero(valor){
   //Escribe una función que reciba un valor booleano y retorne “Soy verdadero” 
   //si su valor es true y “Soy falso” si su valor es false.
   //Escribe tu código aquí
+  if(valor===true){ 
+    return "Soy verdadero";
+  }else if(valor===false){ 
+    return "soy falso";
+  }
 
 }
 
 function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
-  //Escribe tu código aquí   
+  //Escribe tu código aquí 
+  var numero = 6; 
+  for(i = 1; i <= 10; i++) {
+    
+    $resultado = i * 6;
+    console.log ($resultado) ;
+  }
   
 }
 
@@ -199,6 +210,14 @@ function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
+  var contador = 8; // 0 
+  var resultado = 0; // 40 
+  do{
+    resultado +=  5;
+    contador -= 1;
+  }while(contador !== 0)
+
+  return numero + resultado; 
 }
 
 
